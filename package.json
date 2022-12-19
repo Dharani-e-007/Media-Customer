@@ -2,9 +2,10 @@
   "name": "media-customer",
   "version": "1.0.0",
   "description": "\"# Media-Customer\"",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "babel customer -d dist && nodemon dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
