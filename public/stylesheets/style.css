@@ -9,3 +9,89 @@ td {
 	 border-style: solid;
      border-color: yellow;
 }
+body {
+	height: 100%;
+	margin: 0 auto;
+	background-image:url("http://blogs.terrapinn.com/total-customer/files/2012/03/1376056_78566084.jpg");
+  }
+  #box{
+  width:670px;
+	height:100px;
+  
+	box-shadow:inset 0px 0px 29px #9ef8f1;
+	border-radius:27px;
+	border:1px solid #a4e3d9;
+	
+	}
+  #box1{
+	position:absolute;
+	top:0px;
+  width:670px;
+	height:100px;
+	background:#04ffff;
+	box-shadow:0px 5px 5px #000000;
+	border-radius:27px;
+	border:1px solid #a4e3d9;
+	opacity:0.27;
+	}
+  #sun{
+	position:absolute;
+	top:57px;
+	left:47px;
+	width:85px;
+	height:85px;
+	background:radial-gradient(white,#ffff99);
+	box-shadow:0px 0px 27px #ffff99;
+	border-radius:100%;
+	}
+  #deg{
+	position:absolute;
+	top:0px;
+	left:227px;
+	width:200px;
+	height:202px;
+	font-family:arial;
+	color:#ffffff;
+	font-size:72pt;
+	text-shadow:0px 2px 4px #000000;
+	text-align:center;
+	
+	border-left:1px solid #ffffff;
+	}
+  .place{
+	position:absolute;
+	top:-35px;
+	left:27px;
+	  font-family:arial;
+	color:#ffffff;
+	font-size:43.97pt;
+	text-shadow:0px 2px 4px #000000;
+  }
+  .days{
+  position:absolute;
+	top:65px;
+	left:27px;
+	font-family:arial;
+	color:#333333;
+	font-size:24pt;
+  
+  }
+  .date{
+  position:absolute;
+	top:99px;
+	left:27px;
+	font-family:arial;
+	color:#333333;
+	font-size:24pt;
+  
+  }
+  #day{
+	position:absolute;
+	top:0px;
+	left:427px;
+	width:300px;
+	height:202px;
+	border-left:1px solid #ffffff;
+  }
+
+ 

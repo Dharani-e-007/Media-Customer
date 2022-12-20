@@ -8,7 +8,18 @@
     <title>News</title>
 </head>
 <body>
-  
+    <h1>Weather:</h1>
+    <div id="box"></div>
+<div id="box1"></div>
+<div id="sun"></div>
+<div id="deg"><%= (weathermap.main.temp - 273.15).toFixed(0) %>&deg </div>
+<div id="day">
+    <p class="place"><%= weathermap.name %></p>
+    <p class="days"><%= weathermap.weather[0].main %></p>
+    <p class="date">humidity <%= weathermap.main.humidity %>%</p>
+</div>
+    
+
    <h1>News List:</h1>
 		<%if (news && news.length >0){ %>
 	<table>
