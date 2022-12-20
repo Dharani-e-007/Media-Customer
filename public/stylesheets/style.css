@@ -98,3 +98,11 @@ body {
 	width:100px;
 	height:100px;
  }
+ .chat-section-link {
+	position: absolute;
+    right: 5%;
+    top: 5%;
+ }
+ .link-colour{
+	color: blue;
+ }
