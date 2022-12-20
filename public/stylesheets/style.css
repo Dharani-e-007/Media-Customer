@@ -94,4 +94,7 @@ body {
 	border-left:1px solid #ffffff;
   }
 
- 
+ .img-size {
+	width:100px;
+	height:100px;
+ }

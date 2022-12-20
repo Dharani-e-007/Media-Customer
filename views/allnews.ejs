@@ -34,7 +34,7 @@
           <td><%= news[i].title %></td>
           <td><%= news[i].description %></td>
 		  <td><%= news[i].publishedAt %></td>
-		  <td><img src="https://picsum.photos/50"></td>
+		  <td><img class="img-size" src="<%= news[i].urlToImage %>" alt="image"></td>
         </tr>
      <% } %>  
     </table>
