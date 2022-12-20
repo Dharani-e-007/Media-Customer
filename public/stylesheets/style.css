@@ -100,7 +100,12 @@ body {
  }
  .chat-section-link {
 	position: absolute;
-    right: 5%;
+    right: 3%;
+    top: 5%;
+ }
+ .sports-section-link {
+	position: absolute;
+    right: 15%;
     top: 5%;
  }
  .link-colour{

@@ -1,4 +1,5 @@
-const socket = io.connect("http://localhost:5000");
+
+const socket = io.connect(window.location.origin);
 
 const sender = document.querySelector("#Name");
 const text = document.querySelector("#textmessage");
